@@ -1,6 +1,25 @@
+// IMPORTS
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons";
+
+/* GLOBAL RESET*/ 
+* { box-sizing: border-box;}
+
+// VARIABLES
+$color-text-body: rgba(0,0,0,.4);
+$color-text-headings: rgba(0,0,0,1);
+$color-accent: rgba(255, 0, 0, 1);
+$color-accent-dark: rgb(114, 4, 4);
+
+$colr-lightgrey: rgba(0, 0, 0,.5)
+
+$font-family-sans: 'source sans pro', Helvetica, Arial, Helvetica, sans-serif;
+$font-family-serif: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
 $mycolor: yellow;
 
-@import "partials/toc"
+
+
 
 body {
     background: $mycolor;
