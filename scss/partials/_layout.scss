@@ -1,0 +1,27 @@
+/* RESET BODY */
+body {
+    margin: 0;
+}
+
+/* CONTAINER */
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* MEDIA QUERIES */
+
+/* RESPONSIVE TYPOGRAPHY */
+// SMALL
+
+body {
+    font-size: 87.5%; background: red;
+}
+@media (min-width: $breakpoint-small) {
+   body { font-size: 100%; background: yellow;}
+}
+
+@media (min-width: $breakpoint-medium) {
+    body { font-size: 112.5%; background: green;}
+ }

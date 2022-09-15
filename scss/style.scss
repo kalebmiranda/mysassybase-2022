@@ -2,6 +2,14 @@
 @import "partials/toc";
 @import "partials/typography";
 @import "partials/buttons";
+@import "partials/media";
+@import "partials/layout";
+
+// BREAKPOINTS
+$breakpoints-small: 768px;
+$breakpoints-medium: 1050px;
+$breakpoints-large: 1250px;
+
 
 /* GLOBAL RESET*/ 
 * { box-sizing: border-box;}
