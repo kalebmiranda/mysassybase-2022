@@ -36,12 +36,15 @@
 <main class="site-main">
 
     <section class="hero">
+        <div class="container">
         <h1>Kaleb's Sassy Base 2022</h1>
         <p>This is a simple, single page website, built with SASS</p>
         <a href="#typography" class="button">Go to Typography</a>
     </section>
 
     <section id="typography">
+
+        <h2 class="section-heading">Typography</h2>
 
         <div class="container">
             
@@ -198,6 +201,15 @@
         </ul>
     </nav>
 </footer>
+
+<!--SECTION SCROLL BY CHRIS FERDINANDI: https://github.com/cferdinandi/smooth-scroll -->
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800,
+        speedAsDuration: true
+    });
+</script>
 
 
 

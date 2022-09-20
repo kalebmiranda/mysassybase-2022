@@ -64,8 +64,24 @@ hr {
 }
 
 .subheadline {
-    font-weight: normal; font-size: 2.5em;
+    font-weight: normal; 
+    font-size: 2.5em;
+    line-height: 1.1em;
     color: $color-lightgrey;
+    margin: .25em 0;
 }
 
+/* SECTION HEADING */
+.section-heading {
+    font-size: 1em;
+    font-family: $font-family-sans;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    border-bottom: 2px solid $color-accent-dark;
+    display: table;
+    padding: 0 0 1em 0;
+    margin: 1em auto 3em auto;
+
+}
 /* HELPERS */
