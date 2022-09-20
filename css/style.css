@@ -129,7 +129,7 @@ body {
 /* RESPONSIVE TYPOGRAPHY */
 body {
   font-size: 87.5%;
-  background: red;
+  background: rgb(251, 58, 58);
 }
 
 @media (min-width: 768px) {
