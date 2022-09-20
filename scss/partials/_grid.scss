@@ -15,20 +15,20 @@ $gridgap: 2%;
         flex-grow: 1;
     }
 
-    @.centured {
+    .centured {
         justify-content: center;
-    }
+    }  
 
-    @.swapped {
+    .swapped {
         flex-direction: row-reverse;
     }
 
-    @.stacked {
+    .stacked {
         flex-direction: column;
     }
 
-    @.align-top {
-        align: flex-start;
+    .align-top {
+        align-item: flex-start;
     }
 
     @media (min-width: $breakpoint-small) {

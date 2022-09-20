@@ -17,12 +17,12 @@ body {
 // SMALL
 
 body {
-    font-size: 87.5%; background: red;
+    font-size: 87.5%; 
 }
 @media (min-width: $breakpoint-small) {
-   body { font-size: 100%; background: yellow;}
+   body { font-size: 100%; }
 }
 
 @media (min-width: $breakpoint-medium) {
-    body { font-size: 112.5%; background: green;}
+    body { font-size: 112.5%; }
  }
