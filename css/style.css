@@ -8,8 +8,15 @@
 
 TABLE OF CONTENTS
 
+# GLOBAL RESETS
 # BASE TYPOGRAPHY
 # BUTTONS
+# MEDIA
+    # RESPONSIVE IMAGES
+# LAYOUT
+    # CONTAINER
+    # MEDIA QUERIES
+    # SEMANTIC GRID SYSTEM
 
 
 */
@@ -115,6 +122,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1000px;
+  padding: 0 1em;
 }
 
 /* MEDIA QUERIES */
@@ -135,4 +143,54 @@ body {
     font-size: 112.5%;
     background: green;
   }
+}
+/* SEMANTIC GRID SYSTEM */
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+.row > * {
+  margin: 1%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+@media (min-width: 768px) {
+  .row > * {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  .row .one-whole {
+    width: 98%;
+  }
+  .row .one-half {
+    width: 48%;
+  }
+  .row .one-third {
+    width: 31.33%;
+  }
+  .row .two-thirds {
+    width: 64.66%;
+  }
+  .row .one-fourth {
+    width: 23%;
+  }
+  .row .three-fourths {
+    width: 73%;
+  }
+  .row .centured {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.demo .row > * {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1%;
 }
